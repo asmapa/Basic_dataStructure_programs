@@ -1,3 +1,5 @@
+//This is code for basic simple linear search operations
+
 #include<stdio.h>
 int main()
 {
