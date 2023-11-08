@@ -1,4 +1,8 @@
-
+/*Sparse matrix operations
+read 2 matrices
+convert into tuple form
+find transpose of tuple form
+add to tuple form matrices*/
 
 #include <stdio.h>
 
