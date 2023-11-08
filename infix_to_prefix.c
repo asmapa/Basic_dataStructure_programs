@@ -1,3 +1,11 @@
+//Code for convert a infix expression to prefix
+first read infix
+reverse infix expression
+reverse the paranthesis
+the finf the postfix of it
+after that reverse the postfix
+store it into the prefix
+
 #include <stdio.h>
 #include <string.h>
 #include "ctype.h"
