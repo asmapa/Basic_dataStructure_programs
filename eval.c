@@ -1,3 +1,6 @@
+//This is code for evaluating an infix expresssion
+
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h> // for isdigit
