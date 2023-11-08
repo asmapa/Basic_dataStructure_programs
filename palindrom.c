@@ -1,3 +1,6 @@
+//Check the palindrom using stack
+
+
 #include<stdio.h>
 #define size 10
 char stack[10];
