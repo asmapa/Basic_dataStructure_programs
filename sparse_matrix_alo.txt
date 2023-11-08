@@ -1,0 +1,84 @@
+//algorithm to convert to tuple form, here a is the input matrix and b is the output matrix that we want
+
+convert (a,m,n)
+nz=0;k=1
+for i=0 to m-1 
+for j=0 to n-1
+if(a[i][j]!=0)
+b[k][0]=i
+b[k][1]=j
+b[k][2]=a[i][j]
+nz++
+k++
+end for
+end for
+b[0][0]=m
+b[0][1]=n
+b[0][2]=nz
+end
+//for transpose
+n=a[0][2]
+b[0][0]=a[0][1]
+b[0][1]=a[0][0]
+b[0][2]=nz
+col_a=a[0][1]
+q=1
+for i to col_a-1
+for j=1 to n
+if(a[j][1]=i)
+b[q][0]=a[j][1]
+b[q][1]=a[j][0]
+b[q][2]=a[j][2]
+q++
+end of for
+end of for
+
+//algorith or sprse addition 
+sprse addition(a,b,c)
+
+r1=a[0][0]
+c1=a[0][1]
+r2=b[0][1]
+
+if r1!=r2 or c1!=c2
+print addition is not possible
+else
+c[0][0]=[0][1]
+c[0][1]=a[0][1]
+m=1
+n=1
+k=1
+for i=0 to r1-1
+for j=0 to c1-1
+
+if a[m][0]=i and a[m][1]=j and b[n][0]=i and b[n][1]=j then
+c[k][0]=a[m][0]
+c[k][1]=a[m][1]
+c[k][2]=a[m][2]+b[n][2]
+m++
+n++
+k++
+
+else if a[m][0]=i and a[m][1]=j then
+c[k][0]=a[m][0]
+c[k][1]=a[m][1]
+c[k][2]=a[m][2]
+m++ k++
+
+else if b[m][0]=i and b[m][1]=j then
+c[k][0]=b[n][0]
+c[k][1]=b[n][1]
+c[k][2]=b[n][2]
+m++ k++
+end of for j
+end of for i
+
+
+
+
+
+
+
+
+
+
