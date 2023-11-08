@@ -1,3 +1,5 @@
+//read 2 polynomial using array and add them
+
 #include <stdio.h>
 
 struct poly {
