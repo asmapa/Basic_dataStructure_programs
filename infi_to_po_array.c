@@ -1,3 +1,5 @@
+//infix to postfix without sing stack push and pop operatins
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
