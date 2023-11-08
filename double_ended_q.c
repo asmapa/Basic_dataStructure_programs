@@ -1,3 +1,5 @@
+//This is code for double ended queue operations
+
 #include <stdio.h>
 
 #define MAX 5
