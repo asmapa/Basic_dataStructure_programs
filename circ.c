@@ -1,3 +1,5 @@
+//This is code for circular queue operations in C language
+
 #include <stdio.h>
 #define MAX 5
 
