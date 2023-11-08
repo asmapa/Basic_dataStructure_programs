@@ -1,3 +1,5 @@
+//This code include basic operations using stack
+
 #include<stdio.h>
 #define size 5
 int stack[10];
