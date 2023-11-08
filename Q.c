@@ -1,3 +1,5 @@
+//This is the code for basic queue operations in C
+
 #include <stdio.h>
 
 #define MAX 5
