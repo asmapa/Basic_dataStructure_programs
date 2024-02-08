@@ -1,3 +1,15 @@
+/* This contains operations like 
+1.insert at front
+2.insert at end
+3.insert at any position
+4.delete from front
+5.delete from end
+6.delete from midddle
+7.sort
+8.reverse
+9.display*/
+
+
 #include<stdio.h>
 #include<stdlib.h>
 
